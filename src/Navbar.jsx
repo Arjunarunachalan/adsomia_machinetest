@@ -4,12 +4,12 @@ import logo from "./resources/logo-01 (1).png";
 const Navbar = () => {
   return (
     <div>
-      <nav className="bg-gray-400 p-4">
+      <nav className="bg-slate-50 p-4 h-[75px] drop-shadow-md">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="logo w-[100px]">
+          <div className="logo w-[75px] ">
             <img src={logo} alt="" />
           </div>
-          <ul className="flex items-center space-x-4">
+          <ul className="flex items-start space-x-8">
             <li>Home</li>
             <li>About</li>
             <li>Services</li>
